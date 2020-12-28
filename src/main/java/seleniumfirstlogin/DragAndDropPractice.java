@@ -13,7 +13,7 @@ public class DragAndDropPractice {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sravan Kumar\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		// Maximize window in chrome
+		// Maximize window in chrome browser
 		driver.manage().window().maximize();
 		driver.get("https://jqueryui.com/droppable/");
 		driver.switchTo().frame(0);
